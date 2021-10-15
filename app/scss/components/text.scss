@@ -1,0 +1,11 @@
+@use 'utility' as *;
+
+.text {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.6rem;
+
+	@include breakpoint(medium) {
+		align-self: center;
+	}
+}

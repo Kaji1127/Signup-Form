@@ -1,0 +1,25 @@
+@use 'utility' as *;
+
+.trial {
+	text-align: center;
+	margin-bottom: 2.4rem;
+	padding: 1.8rem 0;
+	width: 100%;
+	background-color: var(--blue);
+	border-radius: 10px;
+	box-shadow: 0 8px 0 var(--lightBlack);
+
+	&__text {
+		font-size: 1.5rem;
+		color: var(--white);
+		line-height: 1.73;
+
+		& span {
+			display: block;
+
+			@include breakpoint(medium) {
+				display: inline-block;
+			}
+		}
+	}
+}
