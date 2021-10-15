@@ -1,0 +1,16 @@
+@use 'utility' as *;
+
+.wrapper {
+	display: grid;
+	align-content: center;
+	row-gap: 6.4rem;
+
+	@include breakpoint(medium) {
+		grid-template-columns: 1fr 1.03fr;
+		column-gap: 3rem;
+	}
+
+	@include breakpoint(large) {
+		column-gap: 4.5rem;
+	}
+}
