@@ -33,7 +33,7 @@
 	</head>
 	<body>
 		<main>
-			<div class="wrapper">
+			<div class="wrapper grid">
 				<div class="text">
 					<h1 class="heading-primary">
 						<span>Learn to code by</span>
@@ -45,42 +45,74 @@
 						invaluable.
 					</p>
 				</div>
+
 				<div class="container">
 					<div class="trial">
-						<p class="trial__text">Try it free 7 days then $20/mo. thereafter</p>
-
-						<form class="form">
-							<div class="form__content">
-								<input type="text" placeholder="First Name" />
-								<img src="./images/icon-error.svg" alt="error" />
-								<p class="validate">First Name cannot be empty</p>
-							</div>
-
-							<div class="form__content">
-								<input type="text" placeholder="Last Name" />
-								<img src="./images/icon-error.svg" alt="error" />
-								<p class="validate">Last Name cannot be empty</p>
-							</div>
-
-							<div class="form__content">
-								<input type="email" placeholder="Email Address" />
-								<img src="./images/icon-error.svg" alt="error" />
-								<p class="validate">Looks like this is not an email</p>
-							</div>
-
-							<div class="form__content">
-								<input type="password" placeholder="Password" />
-								<img src="./images/icon-error.svg" alt="error" />
-								<p class="validate">Password cannot be empty</p>
-							</div>
-
-							<button class="submit">Claim your free trial</button>
-							<p class="disclaime">
-								By clicking the button, you are agreeing to our
-								<a href="#" class="disclaime__link">Terms and Services</a>
-							</p>
-						</form>
+						<p class="trial__text">
+							<span><b>Try it free 7 days</b> then </span>
+							<span>$20/mo. thereafter</span>
+						</p>
 					</div>
+
+					<form class="form">
+						<div class="form__content">
+							<div class="form__inner">
+								<input class="form__input" type="text" placeholder="First Name" />
+								<img
+									class="form__error"
+									src="./images/icon-error.svg"
+									alt="error"
+								/>
+							</div>
+							<p class="form__text validate">First Name cannot be empty</p>
+						</div>
+
+						<div class="form__content">
+							<div class="form__inner">
+								<input class="form__input" type="text" placeholder="Last Name" />
+								<img
+									class="form__error"
+									src="./images/icon-error.svg"
+									alt="error"
+								/>
+							</div>
+							<p class="form__text validate">Last Name cannot be empty</p>
+						</div>
+
+						<div class="form__content">
+							<div class="form__inner">
+								<input
+									class="form__input"
+									type="email"
+									placeholder="Email Address"
+								/>
+								<img
+									class="form__error"
+									src="./images/icon-error.svg"
+									alt="error"
+								/>
+							</div>
+							<p class="form__text validate">Looks like this is not an email</p>
+						</div>
+
+						<div class="form__content">
+							<div class="form__inner">
+								<input class="form__input" type="password" placeholder="Password" />
+								<img
+									class="form__error"
+									src="./images/icon-error.svg"
+									alt="error"
+								/>
+							</div>
+							<p class="form__text validate">Password cannot be empty</p>
+						</div>
+
+						<button class="form__submit">Claim your free trial</button>
+						<p class="form__disclaime">
+							By clicking the button, you are agreeing to our
+							<a href="#" class="form__link">Terms and Services</a>
+						</p>
+					</form>
 				</div>
 			</div>
 		</main>
