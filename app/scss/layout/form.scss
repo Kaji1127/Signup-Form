@@ -15,6 +15,10 @@
 	&__content {
 		text-align: right;
 		margin-bottom: 1.6rem;
+
+		@include breakpoint(large) {
+			margin-bottom: 2rem;
+		}
 	}
 
 	&__inner {
