@@ -7,6 +7,10 @@ main {
 	background-size: cover;
 	display: grid;
 	align-content: center;
+
+	@include breakpoint(medium) {
+		background-image: url(../images/bg-intro-desktop.png);
+	}
 }
 
 .wrapper {
