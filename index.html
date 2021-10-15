@@ -57,57 +57,69 @@
 					<form class="form">
 						<div class="form__content">
 							<div class="form__inner">
-								<input class="form__input" type="text" placeholder="First Name" />
+								<input
+									class="form__input firstname"
+									type="text"
+									placeholder="First Name"
+								/>
 								<img
-									class="form__error"
+									class="form__error error-firstname"
 									src="./images/icon-error.svg"
 									alt="error"
 								/>
 							</div>
-							<p class="form__text validate">First Name cannot be empty</p>
-						</div>
-
-						<div class="form__content">
-							<div class="form__inner">
-								<input class="form__input" type="text" placeholder="Last Name" />
-								<img
-									class="form__error"
-									src="./images/icon-error.svg"
-									alt="error"
-								/>
-							</div>
-							<p class="form__text validate">Last Name cannot be empty</p>
+							<p class="form__text error-firstname">First Name cannot be empty</p>
 						</div>
 
 						<div class="form__content">
 							<div class="form__inner">
 								<input
-									class="form__input"
-									type="email"
-									placeholder="Email Address"
+									class="form__input lastname"
+									type="text"
+									placeholder="Last Name"
 								/>
 								<img
-									class="form__error"
+									class="form__error error-lastname"
 									src="./images/icon-error.svg"
 									alt="error"
 								/>
 							</div>
-							<p class="form__text validate">Looks like this is not an email</p>
+							<p class="form__text error-lastname">Last Name cannot be empty</p>
 						</div>
 
 						<div class="form__content">
 							<div class="form__inner">
-								<input class="form__input" type="password" placeholder="Password" />
+								<input
+									class="form__input email"
+									type="email"
+									placeholder="Email Address"
+								/>
 								<img
-									class="form__error"
+									class="form__error error-email"
 									src="./images/icon-error.svg"
 									alt="error"
 								/>
 							</div>
-							<p class="form__text validate">Password cannot be empty</p>
+							<p class="form__text error-email">Looks like this is not an email</p>
 						</div>
 
-						<button class="form__submit">Claim your free trial</button>
+						<div class="form__content">
+							<div class="form__inner">
+								<input
+									class="form__input password"
+									type="password"
+									placeholder="Password"
+								/>
+								<img
+									class="form__error error-password"
+									src="./images/icon-error.svg"
+									alt="error"
+								/>
+							</div>
+							<p class="form__text error-password">Password cannot be empty</p>
+						</div>
+
+						<button class="form__submit" type="submit">Claim your free trial</button>
 						<p class="form__disclaime">
 							By clicking the button, you are agreeing to our
 							<a href="#" class="form__link">Terms and Services</a>
