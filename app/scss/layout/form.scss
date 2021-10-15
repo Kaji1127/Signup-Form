@@ -45,14 +45,15 @@
 		top: 50%;
 		right: 1.6rem;
 		transform: translateY(-50%);
+		display: none;
 	}
 
 	&__text {
-		// display: none;
 		font-size: 1.1rem;
 		font-style: italic;
 		color: var(--red);
 		margin-top: 6px;
+		display: none;
 	}
 
 	&__submit {
@@ -87,3 +88,14 @@
 		line-height: 2;
 	}
 }
+
+.validate {
+	display: block;
+}
+
+// .error-firstname,
+// .error-lastname,
+// .error-email,
+// .error-password {
+// 	display: block;
+// }
